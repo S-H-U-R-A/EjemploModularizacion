@@ -1,6 +1,6 @@
 [versions]
 
-agp                         = "8.2.2"
+agp                         = "8.3.0" #Android gradle plugin
 kotlin                      = "1.9.0"
 core-ktx                    = "1.12.0"
 junit                       = "4.13.2"
@@ -31,7 +31,7 @@ material3                   = { group = "androidx.compose.material3", name = "ma
 
 [plugins]
 
-androidApplication          = { id = "com.android.application",         version.ref = "agp" }
+androidApplication          = { id = "com.android.application",         version.ref = "agp" } #Android gradle plugin
 kotlinAndroid               = { id = "org.jetbrains.kotlin.android",    version.ref = "kotlin" }
 org-jetbrains-kotlin-jvm    = { id = "org.jetbrains.kotlin.jvm",        version.ref = "org-jetbrains-kotlin-jvm" }
 
